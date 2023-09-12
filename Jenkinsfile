@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
 
 node {
-    withEnv(["LT_USERNAME=Your LambdaTest UserName",
-    "LT_ACCESS_KEY=Your LambdaTest Access Key",
+    withEnv(["LT_USERNAME=testergsr33",
+    "LT_ACCESS_KEY=zP2pRMvKbXSwCMNp6d54pcHxEaGpvX6hSsXIdvHzcJyE9O58Cy",
     "LT_TUNNEL=true"]){
 
     echo env.LT_USERNAME
