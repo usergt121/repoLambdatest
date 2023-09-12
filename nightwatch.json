@@ -1,0 +1,105 @@
+{
+  "src_folders": [
+    "tests"
+  ],
+  "output_folder": "reports",
+  "page_objects_path": "",
+  "globals_path": "",
+  "selenium": {
+    "start_process": false,
+    "server_path": "",
+    "log_path": "",
+    "host": "hub.lambdatest.com",
+    "port": 80,
+    "cli_args": {
+      "webdriver.chrome.driver": "",
+      "webdriver.ie.driver": "",
+      "webdriver.firefox.profile": ""
+    }
+  },
+  "test_workers": {
+    "enabled": true,
+    "workers": "auto"
+  },
+  "test_settings": {
+    "default": {
+      "request_timeout_options": {
+        "timeout": 1000000
+      },
+      "launch_url": "https://lambdatest.com",
+      "selenium_port": 80,
+      "selenium_host": "hub.lambdatest.com",
+      "silent": false,
+      "screenshots": {
+        "enabled": true,
+        "path": ""
+      },
+      "username": "",
+      "access_key": "",
+      "skip_testcases_on_fail": false,
+      "desiredCapabilities": {
+        "LT:Options": {
+          "build": "Nightwatch-Selenium-Sample",
+          "visual": false,
+          "console": false,
+          "network": false
+        }
+      }
+    },
+    "chrome": {
+      "desiredCapabilities": {
+        "LT:Options": {
+          "browserName": "Chrome",
+          "browserVersion": "latest",
+          "project": "Untitled",
+          "w3c": true,
+          "plugin": "node_js-nightwatch_js"
+        }
+      }
+    },
+    "safari": {
+      "desiredCapabilities": {
+        "LT:Options": {
+          "browserName": "Safari",
+          "browserVersion": "latest",
+          "project": "Untitled",
+          "w3c": true,
+          "plugin": "node_js-nightwatch_js"
+        }
+      }
+    },
+    "firefox": {
+      "desiredCapabilities": {
+        "LT:Options": {
+          "browserName": "Firefox",
+          "browserVersion": "latest",
+          "project": "Untitled",
+          "w3c": true,
+          "plugin": "node_js-nightwatch_js"
+        }
+      }
+    },
+    "edge": {
+      "desiredCapabilities": {
+        "LT:Options": {
+          "browserName": "MicrosoftEdge",
+          "browserVersion": "latest",
+          "project": "Untitled",
+          "w3c": true,
+          "plugin": "node_js-nightwatch_js"
+        }
+      }
+    },
+    "ie": {
+      "desiredCapabilities": {
+        "LT:Options": {
+          "browserName": "Internet Explorer",
+          "browserVersion": "latest",
+          "project": "Untitled",
+          "w3c": true,
+          "plugin": "node_js-nightwatch_js"
+        }
+      }
+    }
+  }
+}
